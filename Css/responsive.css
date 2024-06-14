@@ -1,0 +1,234 @@
+@media screen and (max-width:991px){
+    #menu-icon{
+        font-size: 3.6rem;
+        color: var(--text-color);
+        display: inline-block;
+    }
+    .brand{
+        display: none;
+    }
+    .nav-toggle{
+        position: fixed;
+        z-index: 50;
+        background: var(--main-color);
+        top: 10rem;
+        width: 100%;
+        max-width: 60%;
+        display: block;
+    }
+    .home-content h3:nth-of-type(2){
+        font-size: 3.2rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .home-image{
+        width: 30%;
+        /* max-width: 800px; */
+        /* min-width: 300px; */
+    }
+    .social-media{
+        min-width: 50%;
+        /* border: 1px solid red; */
+    }
+    .skill .skill-image{
+        width: 100%;
+        overflow: hidden;
+        height: 100vh;
+        max-height: 50vh;
+        
+        /* border: 1px solid red; */
+        max-width: 45%;
+        /* min-width: 35%; */
+    }
+    .skill-box{
+        /* border: 1px solid red; */
+        margin: 1.8rem 2rem;
+        width: 100%;
+        max-width: 60%;
+        min-width: 30%;
+        
+    }
+}
+@media screen and (max-width:776px) {
+    .home-content h3{
+        display: block;
+        /* margin: 0; */
+    }
+    .ul{
+        /* border: 1px solid red; */
+        transform: translateX(-8px);
+        
+    }
+    .home-content h3:nth-of-type(2){
+        margin-bottom:   1rem;
+    }
+    .social-media{
+        min-width: 70%;
+        /* border: 1px solid red; */
+    }
+    .contact-box .contact-form{
+        /* border: 1px solid red; */
+        max-width: 80%;
+    }
+}
+@media screen and (max-width:666px) {
+  
+    .home{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .home-image {
+        width: 100%;
+        max-width: 55%;
+        min-height: 30%;
+        /* min-width: 20%; */
+        
+        /* border: 1px solid red; */
+    }
+    .home-image img{
+        
+        width: 100%;
+        height: 100%;
+
+    }
+    .home-content{
+        /* border: 1px solid red; */
+        /* min-width: 200px; */
+        max-width:  80%;
+        min-width: 60%;
+        width: 100%;
+    }
+    .about{
+        /* border: 1px solid red; */
+        width: 100%;
+        /* align-items: flex-start; */
+        /* flex-direction: column; */
+    }
+    .about-img{
+        width: 100%;
+        max-width: 20%;
+        /* min-width: 40%; */
+    }
+    .about-content{
+        width: 100%;
+        max-width:60% ;
+    }
+    .about-content p{
+        font-size: 1.8rem;
+    }
+    .skill .skill-image{
+        width: 100%;
+        overflow: hidden;
+        height: 100vh;
+        max-height: 30vh;
+        
+        /* border: 1px solid red; */
+        /* max-width: 35%; */
+        /* min-width: 25%; */
+    }
+    
+    .skill-box-content .skillpre{
+        /* border: 1px solid red; */
+        margin: 2.6rem 1rem;
+    }
+}
+@media screen and (max-width:551px) {
+    .skill{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .skill .skill-image{
+        width: 100%;
+        max-width: 80%;
+        min-width: 20%;
+        max-height: 50vh;
+    }
+    .skill .skill-box{
+        width: 100%;
+        max-width: 80%;
+    }
+    .project .project-box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        justify-items: center;
+        /* padding: 0rem 15rem; */
+        grid-column-gap: 30px;
+        grid-row-gap: 60px;
+        width: 100%;
+        max-width: 90%;
+        
+    }   
+    .experiance-section-certificate .exp-img{
+        min-width: 80%;
+    }
+    .contact-box .contact-form{
+        /* border: 1px solid red; */
+        /* max-width: 80%; */
+        min-width: 90%;
+    }
+}
+@media screen and (max-width:400px) {
+    .nav-toggle{
+        position: fixed;
+        z-index: 50;
+        background: var(--main-color);
+        top: 10rem;
+        width: 100%;
+        min-width: 100%;
+    }
+    .home-image {
+        /* width: 50%; */
+        /* max-width: 30%; */
+        /* min-height: 20%; */
+        min-width: 25%;
+        height: 10%;
+        
+        /* border: 1px solid red; */
+    }
+    .home-content{
+        /* border: 1px solid red; */
+        /* min-width: 200px; */
+        max-width:  90%;
+        /* min-width: 60%; */
+        width: 100%;
+        height: 90vh;
+    }
+    .ul span{
+        /* border: 1px solid red; */
+        /* height: 13vh; */
+        font-size: 2.6rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-img{
+        /* border: 3px solid red; */
+        min-width: 50%;
+    }
+    .about-content{
+        min-width: 90%;
+    }
+    .contact-form .form-first{
+        /* border: 1px solid red; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        
+    }
+    .form-first input{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .form-forth{
+        margin-top: 1rem;
+    }
+    .experiance-section-certificate .exp-img{
+        min-width: 100%;
+    }
+    
+}
